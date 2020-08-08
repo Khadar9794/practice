@@ -1,6 +1,5 @@
 package traineemgt;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -9,32 +8,29 @@ import java.util.Set;
 
 public class TraineeMain {
 	public static void main(String[]args) {
-		TraineeMain s=new TraineeMain();
+		
+	       TraineeMain s=new TraineeMain();
 		s.runApp();
-		
-		Map<Integer,Trainee> a = new HashMap<Integer,Trainee>();
-		Set<CSTrainee> cs=new HashSet<>();
-		Set<ECETrainee> ece=new HashSet<>();
 	}
 		
-		private void runApp() {
 		
-		
-	}
 
-		public void runApp(Map<Integer, Trainee> a) {
+		public void runApp() {
 		
+			Map<Integer,Trainee> a = new HashMap<>();
+			Set<CSTrainee> cs=new HashSet<>();
+			Set<ECETrainee> ece=new HashSet<>();
 		
-		ECETrainee trainee1=new ECETrainee("alchemy",213);
-	a.put(trainee1.getId(),trainee1);
-	CSTrainee trainee2=new CSTrainee("team lease",214);
-	a.put(trainee1.getId(),trainee1);
-	Trainee trainees[]=new Trainee[2];
+		  ECETrainee trainee1=new ECETrainee("alchemy",213,"ammeter");
+	        CSTrainee trainee2=new CSTrainee("team lease",214);
+	  
+	          a.put(trainee1.getId(),trainee1);
+	         a.put(trainee2.getId(),trainee2);
+
 	
-	trainees[0]=trainee1;
-	trainees[1]=trainee2;
+	
 			
-	for(Trainee trainee:trainees) {
+	for(Trainee trainee:a.values()) {
 		String name=trainee.getName();
 		int id=trainee.getId();
 		System.out.println(trainee.getName()+" "+ trainee.getId());
@@ -54,18 +50,18 @@ public class TraineeMain {
 	}
 	   
 	     System.out.println("displaying ece");
-	     for(ECETrainee ece:ECE) {
-	    	 int id=ece.getId();
-	    	 String name=ece.getName();
-	    	 String deviceUsed=ece.getDeviceUsed();
+	     for(ECETrainee ec:ece) {
+	    	 int id=ec.getId();
+	    	 String name=ec.getName();
+	    	 String deviceUsed=ec.getDeviceUsed();
 	    	 System.out.println("id is="+id+"name is="+name+"deviceused="+deviceUsed);
 	     }
 	     
 	     System.out.println("displaying cs");
-	     for(CSTrainee cs:CS) {
-	    	 int id=cs.getId();
-	    	 String name=cs.getName();
-	    	 int languages=cs.getLanguages();
+	     for(CSTrainee cse:cs) {
+	    	 int id=cse.getId();
+	    	 String name=cse.getName();
+	    	 int languages=cse.getLanguages();
 	    	 System.out.println("id is="+id+"name is="+name+"language is="+languages);
 	     }
 	}
