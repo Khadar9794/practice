@@ -15,12 +15,7 @@ import com.dxctraining.hotelmgt.service.IguestService;
 public class GuestMain {
 
 	@Autowired
-	private IguestService guestservice = new GuestServiceImplementation();
-
-	public static void main(String[] args) {
-		GuestMain guestDemo = new GuestMain();
-		guestDemo.runApp();
-	}
+	private IguestService guestservice;
 
 	@PostConstruct
 	private void runApp() {
