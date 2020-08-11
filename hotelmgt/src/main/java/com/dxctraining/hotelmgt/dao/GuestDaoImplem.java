@@ -1,12 +1,12 @@
-package com.dxctraining.librarymgt.dao;
+package com.dxctraining.hotelmgt.dao;
 
 import java.util.*;
 
 
 import org.springframework.stereotype.Repository;
 
-import com.dxctraining.librarymgt.entities.Guest;
-import com.dxctraining.librarymgt.exceptions.GuestNotFoundException;
+import com.dxctraining.hotelmgt.entities.Guest;
+import com.dxctraining.hotelmgt.exceptions.GuestNotFoundException;
 
 
 @Repository

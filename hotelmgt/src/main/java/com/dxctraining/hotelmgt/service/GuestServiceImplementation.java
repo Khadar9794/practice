@@ -1,14 +1,14 @@
-package com.dxctraining.librarymgt.service;
+package com.dxctraining.hotelmgt.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.dxctraining.librarymgt.dao.GuestDaoImplem;
-import com.dxctraining.librarymgt.dao.IguestDao;
-import com.dxctraining.librarymgt.entities.Guest;
-import com.dxctraining.librarymgt.exceptions.NullException;
+import com.dxctraining.hotelmgt.dao.GuestDaoImplem;
+import com.dxctraining.hotelmgt.dao.IguestDao;
+import com.dxctraining.hotelmgt.entities.Guest;
+import com.dxctraining.hotelmgt.exceptions.NullException;
 
 @Service
 public class GuestServiceImplementation implements IguestService {

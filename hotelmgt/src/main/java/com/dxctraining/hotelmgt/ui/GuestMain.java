@@ -1,4 +1,4 @@
-package com.dxctraining.librarymgt.ui;
+package com.dxctraining.hotelmgt.ui;
 
 import java.util.List;
 
@@ -7,9 +7,9 @@ import javax.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.dxctraining.librarymgt.entities.Guest;
-import com.dxctraining.librarymgt.service.GuestServiceImplementation;
-import com.dxctraining.librarymgt.service.IguestService;
+import com.dxctraining.hotelmgt.entities.Guest;
+import com.dxctraining.hotelmgt.service.GuestServiceImplementation;
+import com.dxctraining.hotelmgt.service.IguestService;
 
 @Component
 public class GuestMain {

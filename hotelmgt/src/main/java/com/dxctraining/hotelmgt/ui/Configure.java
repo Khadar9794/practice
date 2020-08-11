@@ -1,4 +1,4 @@
-package com.dxctraining.librarymgt.ui;
+package com.dxctraining.hotelmgt.ui;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

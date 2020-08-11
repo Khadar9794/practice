@@ -1,4 +1,5 @@
-package com.dxctraining.librarymgt.ui;
+package com.dxctraining.hotelmgt.ui;
+
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -10,5 +11,3 @@ public class GuestUI {
 	        context.refresh();
 	    }
 	}
-
-

@@ -1,9 +1,9 @@
-package com.dxctraining.librarymgt.dao;
+package com.dxctraining.hotelmgt.dao;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.dxctraining.librarymgt.entities.Guest;
+import com.dxctraining.hotelmgt.entities.Guest;
 
 public class GuestStore {
 	private static Map<String, Guest> guestMap = new HashMap<>();

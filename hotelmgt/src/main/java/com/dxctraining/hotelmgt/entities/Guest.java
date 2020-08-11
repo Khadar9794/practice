@@ -1,4 +1,4 @@
-package com.dxctraining.librarymgt.entities;
+package com.dxctraining.hotelmgt.entities;
 
 public class Guest {
 	private String name;

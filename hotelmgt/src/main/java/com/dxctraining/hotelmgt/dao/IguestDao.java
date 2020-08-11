@@ -1,8 +1,9 @@
-package com.dxctraining.librarymgt.dao;
+package com.dxctraining.hotelmgt.dao;
+
 
 import java.util.List;
 
-import com.dxctraining.librarymgt.entities.Guest;
+import com.dxctraining.hotelmgt.entities.Guest;
 
 public interface IguestDao {
 	public Guest findById(String id);

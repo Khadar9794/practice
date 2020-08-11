@@ -1,4 +1,4 @@
-package com.dxctraining.librarymgt.exceptions;
+package com.dxctraining.hotelmgt.exceptions;
 
 public class NullException extends RuntimeException {
 	public NullException(String msg) {

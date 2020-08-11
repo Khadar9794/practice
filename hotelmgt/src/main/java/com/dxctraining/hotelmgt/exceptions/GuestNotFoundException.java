@@ -1,4 +1,4 @@
-package com.dxctraining.librarymgt.exceptions;
+package com.dxctraining.hotelmgt.exceptions;
 
 public class GuestNotFoundException extends RuntimeException {
 	public GuestNotFoundException(String msg) {

@@ -1,8 +1,9 @@
-package com.dxctraining.librarymgt.service;
+package com.dxctraining.hotelmgt.service;
+
 
 import java.util.List;
 
-import com.dxctraining.librarymgt.entities.Guest;
+import com.dxctraining.hotelmgt.entities.Guest;
 
 public interface IguestService {
 	public void register(Guest guest);
